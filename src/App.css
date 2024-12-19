@@ -1,0 +1,73 @@
+.cell{
+    width: 49px;
+    height: 49px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 23px;
+    color: black;
+    margin: 2px;
+    font-size: 20px;
+    background-color: white;
+    
+}
+.board{
+    width: 563px;
+    height: 606px;
+    display: flex
+;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: violet;
+ }
+
+.button{
+    margin-left: 699px;
+    height: 42px;
+    width: 119px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.number{
+    margin-left: 702px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.player-tern{
+    border: 2px solid grey;
+    width: 114px;
+    text-align: center;
+    margin-left: 497px;
+    margin-top: -59px;
+    background-color: darkgrey;
+}
+.Sidebar{
+    height: 738px;
+    width: 250px;
+    background: #2F4050;
+}
+.first-name{
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.one-row{
+    display: flex;
+    
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+ }
+ .start-game{
+    margin: 263px;
+    margin-left: 518px;
+ }
